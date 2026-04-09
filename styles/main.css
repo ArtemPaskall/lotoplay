@@ -124,7 +124,7 @@ body {
 .header__text {
   color: #fff;
   font-size: 20px;
-  font-size: clamp(14px, 3vw, 20px);
+  font-size: clamp(16px, 3vw, 20px);
 }
 .header__text--1 {
   margin-top: 40px;
@@ -403,6 +403,7 @@ form textarea {
 }
 .footer {
   background-color: #0b0d10;
+  border-top: 2px solid #282d37;
   color: #fff;
   padding: 60px 0;
 }
