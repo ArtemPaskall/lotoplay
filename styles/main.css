@@ -433,8 +433,10 @@ form textarea {
 }
 .pop-up-wrapp {
   display: none;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -449,6 +451,11 @@ form textarea {
 .pop-up-form {
   width: 100%;
   max-width: 700px;
+}
+.pop-up-header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
 }
 .form-close {
   width: 20px;
