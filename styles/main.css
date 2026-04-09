@@ -470,7 +470,7 @@ form textarea {
 .form-close {
   width: 20px;
   position: absolute;
-  top: 25px;
+  top: 40px;
   right: 40px;
   cursor: pointer;
 }
