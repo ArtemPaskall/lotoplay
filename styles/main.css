@@ -101,7 +101,10 @@ body {
 .header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/background.png);
+    image-set(
+      url("../images/background.webp") type("image/webp"),
+      url("../images/background.png") type("image/png")
+    );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
