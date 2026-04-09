@@ -263,10 +263,13 @@ tbody tr:hover td {
   padding: 0 40px;
 }
 .concerts__stars-item {
+  max-width: 300px;
+  width: 100%;
   border-radius: 15px;
   border: 2px solid #2a2f3a;
 }
 .concerts__stars-item img {
+  width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
