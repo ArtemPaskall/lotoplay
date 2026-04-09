@@ -461,6 +461,13 @@ form textarea {
     flex: unset;
     width: 100%;
   }
+  .footer__wrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
 }
 @media (max-width: 600px) {
   .form__input-wrapp {
