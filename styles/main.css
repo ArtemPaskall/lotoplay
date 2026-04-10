@@ -117,7 +117,7 @@ body {
   padding: 0px 40px;
 }
 .header__main-header {
-  font-size: clamp(36px, 5vw, 62px);
+  font-size: clamp(36px, 5vw, 46px);
   color: #fff;
   font-weight: 600;
   margin-top: 80px;
@@ -127,7 +127,7 @@ body {
 .header__text {
   color: #fff;
   font-size: 20px;
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: 16px;
 }
 .header__text--1 {
   margin-top: 40px;
@@ -150,7 +150,7 @@ body {
   box-shadow: 0 0 12px 4px rgba(253, 218, 13, 0.45);
   padding: 10px 30px;
   border-radius: 10px;
-  font-size: clamp(14px, 3vw, 18px);
+  font-size: clamp(14px, 3vw, 16px);
   margin-top: 40px;
   color: #000;
   font-weight: 600;
