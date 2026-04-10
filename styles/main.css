@@ -3,7 +3,7 @@ body {
 }
 .header-wrapp {
   height: 100vh;
-  min-height: 500px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
 }
